@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "midi-mapper"
+version = "0.1.0"
+description = "Midi mapper in real time."
+authors = ["Jorge Porras <dpjn316@hotmail.com>"]
+license = "GNU"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python-rtmidi = "^1.4.9"
+Cython = "^0.29.24"
+osc-lib = "^2.4.2"
+pyliblo = "^0.10.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

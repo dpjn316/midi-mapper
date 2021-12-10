@@ -1,0 +1,1000 @@
+  174  cd /etc/init.d/
+  175  ls
+  176  crontab 
+  177  crontab  -l
+  178  cd /etc/
+  179  ls
+  180  cd systemd/
+  181  ls
+  182  vi networkd.conf 
+  183  vi network
+  184  ls -l
+  185  cd user/
+  186  ls
+  187  ls -a
+  188  l-l
+  189  l -l
+  190  cd multi-user.target.wants/
+  191  ls
+  192  vi fluidsynth.service
+  193  cd 
+  194  ls
+  195  ls -la
+  196  mkdir bash
+  197  ls
+  198  rm bash/
+  199  rm -f bash
+  200  rm -rf bash
+  201  ls
+  202  mkdir examples
+  203  cd examples/
+  204  vim test.sh
+  205  ps -p $$
+  206  vim test.sh
+  207  cat /etc/shells
+  208  ls
+  209  vi test.sh 
+  210  ./test.sh
+  211  chmod  u+x test.sh 
+  212  ./test.sh 
+  213  vi test.sh 
+  214  ./test.sh 
+  215  vi test.sh 
+  216  ./test.sh 
+  217  ./test.sh  asdf
+  218  vi test.sh 
+  219  ./test.sh  asdf xxxx
+  220  exit
+  221  sudo vim /etc/netplan/50-cloud-init.yaml 
+  222  sudo netplan apply
+  223  ping google.com
+  224  ifconfig
+  225  aconnect -l
+  226  ls
+  227  cd examples/
+  228  ./test.sh 
+  229  vim test.sh 
+  230  ./test.sh 
+  231  vim test.sh 
+  232  ./test.sh 
+  233  ls
+  234  cd examples/
+  235  ls
+  236  ./test.sh 
+  237  aconnect -l | grep E-MU XMidi2X2
+  238  aconnect -l | grep "E-MU XMidi2X2"
+  239  man grep 
+  240  aconnect -l | grep "E-MU XMidi2X2" -o
+  241  aconnect -l | grep -P "client \d+: 'E-MU XMidi2X2'" -o
+  242  aconnect -l | grep -P "client (?=\d+): 'E-MU XMidi2X2'" -o
+  243  aconnect -l | grep -P "client \d+: 'E-MU XMidi2X2'" -o
+  244  echo "12 BBQ ,45 rofl, 89 lol" | grep -P '\d+ (?=rofl)' -o
+  245  sed
+  246  man sed
+  247  aconnect -l | grep -P "client (\d+): 'E-MU XMidi2X2'" -o
+  248  aconnect -l | grep -P "client (?\d+): 'E-MU XMidi2X2'" -o
+  249  echo "12 BBQ ,45 rofl, 89 lol" | grep -P '\d+ (?=rofl)' -o
+  250  aconnect -l | grep -P "client (\d+): 'E-MU XMidi2X2'" -o
+  251  aconnect -l | grep -P "client (?=\d+): 'E-MU XMidi2X2'" -o
+  252  aconnect -l | grep -P "client \d+: ('E-MU XMidi2X2')" -o
+  253  aconnect -l | grep -P "client \d+: (?='E-MU XMidi2X2')" -o
+  254  aconnect -l | grep -P "client \d+(?=: 'E-MU XMidi2X2')" -o
+  255  aconnect -l | grep -P "(?=client) \d+(?=: 'E-MU XMidi2X2')" -o
+  256  aconnect -l | grep -P "(client=?) \d+(?=: 'E-MU XMidi2X2')" -o
+  257  aconnect -l | grep -P "client \d+(?=: 'E-MU XMidi2X2')" -o
+  258  aconnect -l | grep -P "client \d+(?=: 'E-MU XMidi2X2')"
+  259  aconnect -l | grep -P "client \d+(?=: 'E-MU XMidi2X2')" -o
+  260  vim test.sh 
+  261  ./test.sh 
+  262  aconnect -l | grep -P "client \d+: 'E-MU XMidi2X2'" -o
+  263  aconnect -l | grep -P "client (?\d+): 'E-MU XMidi2X2'" -o
+  264  aconnect -l | grep -P "client (\d+): 'E-MU XMidi2X2'" -o
+  265  aconnect -l | grep -P "client (<ID>\d+): 'E-MU XMidi2X2'" -o
+  266  aconnect -l | grep -P "client (?<ID>\d+): 'E-MU XMidi2X2'" -o
+  267  echo "12 BBQ ,45 rofl, 89 lol" | sed -e 's/.*(\d+) rofl.*/$1/g'
+  268  echo '12 BBQ ,45 rofl, 89 lol' | sed  's/^.*,\([0-9][0-9]*\).*$/\1/g'
+  269  aconnect -l | sed "client \d+: 'E-MU XMidi2X2'"
+  270  aconnect -l
+  271  aconnect -l | sed "client \d+: 'E-MU XMidi2X2'"
+  272  vim test.sh 
+  273  aconnect
+  274  aconnect -l
+  275  aconnect -l | grep -P "client \d+: 'E-MU XMidi2X2'" -o
+  276  aconnect -l | grep -P "client \d+: 'E-MU XMidi2X2'" -o | grep -P "\d+"
+  277  aconnect -l | grep -P "client \d+: 'E-MU XMidi2X2'" -o | grep -P "\d+" -o
+  278  aconnect -l | grep -P "client \d+: 'E-MU XMidi2X2'" -o | grep -P "(\d+):" -o
+  279  aconnect -l
+  280  echo "client 24: 'E-MU XMidi2X2' [type=kernel,card=2]" | grep -P "client \d+: 'E-MU XMidi2X2'" -o | grep -P "(\d+):" -o
+  281  echo "client 159: 'E-MU XMidi2X2' [type=kernel,card=2]" | grep -P "client \d+: 'E-MU XMidi2X2'" -o | grep -P "(\d+):" -o
+  282  vim test.sh 
+  283  ./test.sh 
+  284  vim test.sh 
+  285  ./test.sh 
+  286  vim test.sh 
+  287  ./test.sh ç
+  288  ./test.sh 
+  289  vim test.sh 
+  290  ./test.sh 
+  291  vim test.sh 
+  292  ./test.sh 
+  293  vim test.sh 
+  294  ./test.sh 
+  295  vim test.sh 
+  296  ./test.sh 
+  297  vim test.sh 
+  298  ./test.sh 
+  299  vim test.sh 
+  300  history
+  301  vim test.sh 
+  302  ./test.sh 
+  303  vim test.sh 
+  304  ./test.sh 
+  305  aconnect -l
+  306  vim test.sh 
+  307  ./test.sh 
+  308  vim test.sh 
+  309  ./test.sh 
+  310  vim test.sh 
+  311  ./test.sh 
+  312  vim test.sh 
+  313  ./test.sh 
+  314  vim test.sh 
+  315  ./test.sh 
+  316  vim test.sh 
+  317  ./test.sh 
+  318  vim test.sh 
+  319  ./test.sh 
+  320  vim test.sh 
+  321  ./test.sh 
+  322  vim test.sh 
+  323  ./test.sh 
+  324  history
+  325  aconnect -l
+  326  aconnect -x
+  327  aconnect -l
+  328  ./test.sh 
+  329  vim test.sh 
+  330  ./test.sh 
+  331  vim test.sh 
+  332  ./test.sh 
+  333  vim test.sh 
+  334  ./test.sh 
+  335  aconnect -x
+  336  ./test.sh 
+  337  vim test.sh 
+  338  ./test.sh 
+  339  cp test.sh test.sh_bkc
+  340  ls
+  341  ./test.sh 
+  342  vim test.sh 
+  343  ./test.sh 
+  344  vim test.sh 
+  345  ./test.sh 
+  346  vim test.sh 
+  347  aconnect -x
+  348  ./test.sh 
+  349  aconnect -x
+  350  ./test.sh 
+  351  aconnect -x
+  352  vim test.sh 
+  353  nano test.sh
+  354  ./test.sh 
+  355  nano test.sh
+  356  ./test.sh 
+  357  sudo shutdown now
+  358  history > history_01.txt
+  359  history
+  360  ls
+  361  cd examples/
+  362  ls
+  363  vim test.sh
+  364  ./test.sh 
+  365  vim test.sh
+  366  ./test.sh 
+  367  vim test.sh
+  368  aconnect -l
+  369  $(aconnect -l | grep -P "client \d+: 'E-MU XMidi2X2'" -o | grep -P "(\d+):" -o)
+  370  aconnect -l | grep -P "client \d+: 'E-MU XMidi2X2'" -o | grep -P "(\d+):" -o
+  371  aconnect -l | grep -P "Connected From:" -o
+  372  vim test.sh
+  373  ls
+  374  rm test.sh_bkc 
+  375  cp test.sh test.sh_bkp
+  376  ls
+  377  vim test.sh
+  378  aseqview
+  379  man amidi
+  380  vim test.sh
+  381  vim .test.sh.swp 
+  382  vim test.sh
+  383  ls
+  384  vim test.sh
+  385  ls -a
+  386  rm .test.sh.swp 
+  387  ls
+  388  vim test.sh
+  389  ls
+  390  ls -a
+  391  ./test.sh 
+  392  vim test.sh
+  393  ./test.sh 
+  394  vim test.sh
+  395  clear
+  396  vim test.sh
+  397  ./test.sh 
+  398  vim test.sh
+  399  ./test.sh 
+  400  vim test.sh
+  401  ./test.sh 
+  402  vim test.sh
+  403  ./test.sh 
+  404  vim test.sh
+  405  ./test.sh 
+  406  vim test.sh
+  407  ls -a
+  408  vim test.sh
+  409  ./test.sh 
+  410  aconnect -l
+  411  ./test.sh 
+  412  awk
+  413  aconnect -l | awk 
+  414  aconnect -l | awk {PRINT}
+  415  ./test.sh 
+  416  aconnect -l | awk '{print}'
+  417  aconnect -l | awk '{printf "E-MU XMidi2X2"}'
+  418  aconnect -l | awk '{printf "client %s: E-MU XMidi2X2"}'
+  419  aconnect -l | awk '{printf "client %s E-MU XMidi2X2"}'
+  420  aconnect -l | awk '{printf "client %s E-MU XMidi2X2", id}'
+  421  aconnect -l | awk '{printf "client %s: E-MU XMidi2X2", id}'
+  422  vim test.sh
+  423  ./test.sh
+  424  vim test.sh
+  425  ./test.sh
+  426  vim test.sh
+  427  ./test.sh
+  428  vim test.sh
+  429  ./test.sh
+  430  vim test.sh
+  431  ./test.sh
+  432  aconnect -x
+  433  ./test.sh
+  434  vim test.sh
+  435  ./test.sh
+  436  vim test.sh
+  437  ls -l
+  438  ls -la
+  439  vim test.sh
+  440  ./test.sh
+  441  vim test.sh
+  442  ./test.sh
+  443  sudo reboot now
+  444  ls
+  445  history
+  446  ./test.sh
+  447  ls
+  448  cd examples/
+  449  ./test.sh
+  450  vim test.sh
+  451  ./test.sh
+  452  vim test.sh
+  453  ./test.sh
+  454  vim test.sh
+  455  ./test.sh
+  456  vim test.sh
+  457  ls
+  458  rm test.sh_bkp 
+  459  cp test.sh test.sh_bkp
+  460  ./test.sh
+  461  vim test.sh
+  462  ./test.sh
+  463  vim test.sh
+  464  ./test.sh
+  465  vim test.sh
+  466  ./test.sh
+  467  vim test.sh
+  468  ./test.sh
+  469  vim test.sh
+  470  ./test.sh
+  471  vim test.sh
+  472  ./test.sh
+  473  vim test.sh
+  474  ./test.sh
+  475  vim test.sh
+  476  ls -la
+  477  cat .ssh/id_ed25519.pub 
+  478  ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIA0tyHBQcj9DGEUik4sCziWkB1cbR0E76AtqFa1MEMhE dpjn316@gmail.com
+  479  aconnect -x
+  480  aconnect -l
+  481  aconnect -x
+  482  aconnect -l
+  483  aconnect -x
+  484  aconnect -l
+  485  aconnect -x
+  486  aconnect -l
+  487  aconnect -x
+  488  clear
+  489  ssh-keygen -t ed25519 -C "dpjn316@gmail.com"
+  490  eval "$(ssh-agent -s)"
+  491  ssh-add ~/.ssh/id_ed25519
+  492  ifconfig
+  493  ssh -T git@github.com
+  494  ls
+  495  clear
+  496  ls
+  497  cd midi-station/
+  498  ls
+  499  git init
+  500  git status
+  501  git add .
+  502  git status
+  503  git commit -m "Documentation and auto-connect script"
+  504  git config --global user.mail "dpjn316@gmail.com"
+  505  git config --global user.name "Jorge Porras"
+  506  git status
+  507  git commit -m "Documentation and auto-connect script"
+  508  git config --global user.mail "dpjn316@hotmail.com"
+  509  git config --global user.name "Jorge Porras"
+  510  git commit -m "Documentation and auto-connect script"
+  511  ls
+  512  ls -la
+  513  rm -rf .git/
+  514  git status
+  515  git config --global user.email "dpjn316@hotmail.com"
+  516  git config --global user.name "Jorge Porras"
+  517  git init
+  518  ls
+  519  git add .
+  520  git commit -m "Documentation and auto-connect script"
+  521  git branch -M master
+  522  git status
+  523  git remote add origin git@github.com:dpjn316/midi-station.git
+  524  git push -u origin main
+  525  git push -u origin master
+  526  git status
+  527  ls
+  528  vim set-up.md 
+  529  git status
+  530  git add .
+  531  git commit -m "Markdwon syntax"
+  532  git push
+  533  git status
+  534  cd ..
+  535  ls
+  536  cd midi-station/
+  537  ./auto-connect-midi-interface.sh 
+  538  aconnect -x
+  539  ./auto-connect-midi-interface.sh 
+  540  aconnect -x
+  541  ls
+  542  cd ..
+  543  ls
+  544  cd examples/
+  545  ls
+  546  cd ..
+  547  rm -rf examples/
+  548  ls
+  549  cd midi-station/
+  550  ls
+  551  sudo nano /etc/netplan/50-cloud-init.yaml 
+  552  sudo vim /etc/netplan/50-cloud-init.yaml 
+  553  ls
+  554  vim tempo 
+  555  ls
+  556  vim set-up.md 
+  557  git status
+  558  git pull
+  559  git status
+  560  vim set-up.md 
+  561  git status
+  562  rm tempo 
+  563  ls
+  564  git status
+  565  git add .
+  566  git commit -m "network configuration"
+  567  git push
+  568  clear
+  569  ls
+  570  git status
+  571  aconnect -x
+  572  ls
+  573  cd 
+  574  cd /var/log/
+  575  ls
+  576  tail auto_connect_midi_interface.log 
+  577  tail -f auto_connect_midi_interface.log 
+  578  ls
+  579  cd 
+  580  cd midi-station/
+  581  ls
+  582  tail -f /var/log/auto_connect_midi_interface.log 
+  583  exit
+  584  cd examples/
+  585  vim test.sh
+  586  ls -la
+  587  nano test.sh
+  588  cp test.sh test.sh_bkp2
+  589  rm .test.sh.swp
+  590  ls
+  591  ls -la
+  592  vim test.sh
+  593  ./test.sh
+  594  ls
+  595  vim test.sh
+  596  ./test.sh
+  597  vim test.sh
+  598  ./test.sh
+  599  vim test.sh
+  600  ./test.sh
+  601  ls
+  602  ls -la
+  603  rm test.sh_bkp
+  604  ls -la
+  605  rm test.sh_bkp2 
+  606  ls
+  607  history
+  608  ls
+  609  cp test.sh test.sh_bck
+  610  ping google.com
+  611  cd 
+  612  ls
+  613  mkdir midi-station
+  614  cd midi-station/
+  615  ls
+  616  vim
+  617  ls
+  618  cd ..
+  619  ls
+  620  cd examples/
+  621  ls
+  622  cp test.sh ../midi-station/auto-connect-midi-interface.sh
+  623  ls
+  624  cd ..
+  625  ls
+  626  rm history_01.txt 
+  627  ls
+  628  cd midi-station/
+  629  ls
+  630  git status
+  631  ls
+  632  cd ..
+  633  ls
+  634  cd /etc/systemd/system/
+  635  ls
+  636  vim sockets.target.wants/
+  637  vim sockets.target.wants/uuidd.socket 
+  638  cd 
+  639  ls
+  640  cd midi-station/
+  641  ls
+  642  cd ..
+  643  ls
+  644  mkdir logs
+  645  rm -rf logs/
+  646  ls
+  647  cd /
+  648  ls
+  649  cd var/
+  650  ls
+  651  cd lo
+  652  cd log/
+  653  ls
+  654  cd ..
+  655  cd 
+  656  ls
+  657  cd midi-station/
+  658  ls
+  659  vim auto-connect-midi-interface.sh 
+  660  ./auto-connect-midi-interface.sh 
+  661  ls
+  662  vim auto-connect-midi-interface.sh 
+  663  ./auto-connect-midi-interface.sh 
+  664  vim auto-connect-midi-interface.sh 
+  665  tee
+  666  man tee
+  667  vim auto-connect-midi-interface.sh 
+  668  ./auto-connect-midi-interface.sh 
+  669  vim auto-connect-midi-interface.sh 
+  670  ./auto-connect-midi-interface.sh 
+  671  vim auto-connect-midi-interface.sh 
+  672  ./auto-connect-midi-interface.sh 
+  673  vim auto-connect-midi-interface.sh 
+  674  ./auto-connect-midi-interface.sh 
+  675  vim auto-connect-midi-interface.sh 
+  676  ./auto-connect-midi-interface.sh 
+  677  vim auto-connect-midi-interface.sh 
+  678  ./auto-connect-midi-interface.sh 
+  679  sudo ./auto-connect-midi-interface.sh 
+  680  ls
+  681  vim auto-connect-midi-interface.sh 
+  682  sudo ./auto-connect-midi-interface.sh 
+  683  vim auto-connect-midi-interface.sh 
+  684  sudo ./auto-connect-midi-interface.sh 
+  685  vim auto-connect-midi-interface.sh 
+  686  sudo ./auto-connect-midi-interface.sh 
+  687  date
+  688  date + '%Y%m%d'
+  689  $(date + '%Y%m%d')
+  690  date
+  691  $(date +'%Y%m%d')
+  692  date +'%Y%m%d'
+  693  date +'%Y-%m-%d'
+  694  date +'%Y-%m-%d %h%M%s'
+  695  date +'%Y-%m-%d %HH%M%s'
+  696  date +'%Y-%m-%d %HH%MM%SS'
+  697  date +'%Y-%m-%d %H%M%S'
+  698  date +'%Y-%m-%d %H:%M:%S'
+  699  date +'%Y-%m-%d %H:%M:%S %N'
+  700  date +'%Y-%m-%d %H:%M:%S %z'
+  701  date +'%Y-%m-%d %H:%M:%S %:z'
+  702  vim auto-connect-midi-interface.sh 
+  703  sudo ./auto-connect-midi-interface.sh 
+  704  vim auto-connect-midi-interface.sh 
+  705  sudo ./auto-connect-midi-interface.sh 
+  706  vim auto-connect-midi-interface.sh 
+  707  sudo ./auto-connect-midi-interface.sh 
+  708  vim auto-connect-midi-interface.sh 
+  709  sudo ./auto-connect-midi-interface.sh 
+  710  vim auto-connect-midi-interface.sh 
+  711  sudo ./auto-connect-midi-interface.sh 
+  712  vim auto-connect-midi-interface.sh 
+  713  sudo ./auto-connect-midi-interface.sh 
+  714  vim auto-connect-midi-interface.sh 
+  715  sudo ./auto-connect-midi-interface.sh 
+  716  vim auto-connect-midi-interface.sh 
+  717  sudo ./auto-connect-midi-interface.sh 
+  718  ls
+  719  git status
+  720  git add .
+  721  git commit -m "Log para script"
+  722  git push
+  723  vim auto-connect-midi-interface.sh 
+  724  history
+  725  ls
+  726  vim set-up.md 
+  727  git diff
+  728  cd /etc/systemd/
+  729  ls
+  730  cd user/
+  731  ls
+  732  cd ..
+  733  ls
+  734  cd system/
+  735  ls
+  736  sudo vim auto_connect_midi_intferface.service
+  737  sudo cp ~/midi-station/auto-connect-midi-interface.sh /usr/sbin/
+  738  cd /usr/sbin
+  739  ls
+  740  ls -la
+  741  vi zic
+  742  vi update-rc.d 
+  743  cd 
+  744  cd midi-station/
+  745  ls
+  746  git status
+  747  sudo systemctl enable auto-connect-midi-interface
+  748  cd /etc/systemd/system/
+  749  ls
+  750  mv auto_connect_midi_intferface.service auto-connect-midi-interface.service
+  751  sudo mv auto_connect_midi_intferface.service auto-connect-midi-interface.service
+  752  ls
+  753  sudo systemctl enable auto-connect-midi-interface
+  754  systemctl start auto-connect-midi-interface
+  755  ls
+  756  vim auto-connect-midi-interface.service 
+  757  history
+  758  systemctl status auto-connect-midi-interface
+  759  cd 
+  760  cd midi-station/
+  761  ls
+  762  git status
+  763  vim set-up.md 
+  764  git status
+  765  git add .
+  766  git commit -m "How to create a deamon"
+  767  git puhs
+  768  git push
+  769  vim auto-connect-midi-interface.service 
+  770  ls
+  771  vim auto-connect-midi-interface.sh 
+  772  systemctl stop auto-connect-midi-interface
+  773  sudo cp auto-connect-midi-interface.sh /usr/sbin/
+  774  systemctl start auto-connect-midi-interface
+  775  git status
+  776  git diff
+  777  git add .
+  778  git commit -m "log name changed"
+  779  git push
+  780  git status
+  781  exit
+  782  aconnect -x
+  783  cd midi-station/
+  784  ls -la
+  785  cd /usr/sbin/
+  786  ls -la
+  787  ls -la | less
+  788  cd /var/log/
+  789  ls
+  790  rm auto_connect_midi_interface.log 
+  791  sudo rm auto_connect_midi_interface.log 
+  792  ls -la
+  793  tail -f auto_connect_midi_interface.log 
+  794  ls
+  795  sudo rm auto_connect_midi_interface.log 
+  796  ls -la
+  797  tail -f auto-connect-midi-interface.log 
+  798  sudo shutdown now
+  799  tail -f /var/log/auto-connect-midi-interface.log 
+  800  sudo shutdown now
+  801  clear
+  802  aconnect -l
+  803  ls
+  804  mkdir x42
+  805  cd x42/
+  806  ls
+  807  cd ..
+  808  cd midi-station/
+  809  ls
+  810  git status
+  811  cd ..
+  812  cd x42/
+  813  ls
+  814  git status
+  815  git clone git://github.com/x42/midimap.lv2.git
+  816  ls
+  817  cd midimap.lv2/
+  818  ls
+  819  make
+  820  sudo apt install make
+  821  ls
+  822  make
+  823  ls
+  824  sudo apt install pkg-config
+  825  ls
+  826  make
+  827  clear
+  828  make
+  829  sudo make
+  830  ls
+  831  vi Makefile 
+  832  sudo apt-get install lv2-dev 
+  833  sudo make
+  834  sudo apt-get install cc-tool 
+  835  sudo make
+  836  sudo apt-get install lv2file 
+  837  sudo apt-get install lv2proc 
+  838  sudo make
+  839  vi Makefile 
+  840  lv2
+  841  cd 
+  842  cd x42/
+  843  ls
+  844  cd midimap.lv2/
+  845  ls
+  846  vi README.md 
+  847  sudo apt-get install lv2-c++-tools
+  848  sudo make
+  849  make
+  850  sudo apt-get install gcc
+  851  ls
+  852  make
+  853  sudo make
+  854  gcc
+  855  clear
+  856  sudo make
+  857  ls
+  858  vim Makefile 
+  859  git status
+  860  vim Makefile 
+  861  git status
+  862  ls
+  863  sudo make
+  864  vim Makefile 
+  865  sudo make
+  866  sudo make install PREFIX/usr
+  867  make
+  868  vi Makefile 
+  869  sudo make install 
+  870  exit
+  871  history
+  872  midimap
+  873  sudo reboot 
+  874  cd x42/
+  875  ls
+  876  cd midimap.lv2/
+  877  ls
+  878  vi README.md 
+  879  ls
+  880  make
+  881  sudo make
+  882  vi Makefile 
+  883  cd /usr/local/
+  884  ls
+  885  cd bin/
+  886  ls
+  887  cd ..
+  888  cd lib/
+  889  ls
+  890  cd lv2/
+  891  ls
+  892  cd midimap.lv2/
+  893  ls
+  894  ./midimap.so 
+  895  vi midimap.so
+  896  cd ..
+  897  ls
+  898  cd ..
+  899  ls
+  900  cd ..
+  901  ls
+  902  cd share/
+  903  ls
+  904  cd ..
+  905  ls
+  906  cd include/
+  907  ls
+  908  cd ..
+  909  ls
+  910  cd etc/
+  911  ls
+  912  cd ..
+  913  fluidsynth 
+  914  jack_test
+  915  :q
+  916  vim /etc/security/limits.conf
+  917  aseqview
+  918  clear
+  919  history
+  920  cd 
+  921  ls
+  922  cd x
+  923  cd x42
+  924  ls
+  925  cd midimap.lv2/
+  926  git status
+  927  git diff
+  928  clear
+  929  ls
+  930  history
+  931  ls
+  932  cd 
+  933  mkdir Downloads
+  934  cd Downloads/
+  935  ls
+  936  curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+  937  python --version
+  938  python -v
+  939  python
+  940  python3
+  941  curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3 -
+  942  sudo reboot
+  943  aconnect -l
+  944  ls
+  945  poetry --version
+  946  ls
+  947  cd Downloads/
+  948  ls
+  949  ls -la
+  950  cd ..
+  951  ls
+  952  mkdir python-rtmidi
+  953  cd python-rtmidi/
+  954  cd ..
+  955  ls
+  956  rm -rf python-rtmidi/
+  957  ls
+  958  gh repo clone SpotlightKid/python-rtmidi
+  959  git clone SpotlightKid/python-rtmidi
+  960  git clone https://github.com/SpotlightKid/python-rtmidi.git
+  961  ls
+  962  cd python-rtmidi/
+  963  ls
+  964  cd ..
+  965  mkdir midi-mapper
+  966  cd midi-
+  967  cd midi-mapper/
+  968  ls
+  969  poetry init 
+  970  poetry install
+  971  env
+  972  sudo apt install pkg-config
+  973  sudo apt install jack
+  974  sudo apt install jackd
+  975  whereis jack
+  976  cd /usr/lib/aarch64-linux-gnu/
+  977  ls
+  978  cd jack/
+  979  ls
+  980  cd ..
+  981  ls
+  982  cd lib
+  983  ls
+  984  cd pkgconfig/
+  985  ls
+  986  lcd 
+  987  cd 
+  988  ls
+  989  cd midi-mapper/
+  990  ls
+  991  cd /usr/lib/aarch64-linux-gnu/
+  992  ls
+  993  cd jack/
+  994  ls
+  995  qjackctl
+  996  sudo shutdown now
+  997  clear
+  998  sudo apt install xubuntu-desktop 
+  999  sudo reboot 
+ 1000  ls
+ 1001  cd midi-station/
+ 1002  ls
+ 1003  git diff
+ 1004  git status
+ 1005  vim set-up.md 
+ 1006  git status
+ 1007  git add .
+ 1008  git commit -m "Fail try to install x42 lv2 plugin"
+ 1009  git push
+ 1010  git status
+ 1011  aconnect -l
+ 1012  tail -f /var/log/auto-connect-midi-interface.log 
+ 1013  sudo apt-get install libasound2-dev 
+ 1014  ls
+ 1015  cd midi-mapper/
+ 1016  ls
+ 1017  poetry install
+ 1018  sudo apt-get install libasound2-dev
+ 1019  sudo apt-get install libjack-dev 
+ 1020  poetry install
+ 1021  sudo apt install g++
+ 1022  poetry install
+ 1023  sudo apt-get install python3-dev
+ 1024  poetry install
+ 1025  ls
+ 1026  history
+ 1027  exit
+ 1028  tail -f /var/log/auto-connect-midi-interface.log 
+ 1029  qjackctl 
+ 1030  exit
+ 1031  historyç
+ 1032  history
+ 1033  qjackctl
+ 1034  clear
+ 1035  pasuspender -- jackd -d alsa --device hw:0 --rate 44100 --period 128
+ 1036  $ echo "suspend 1" | pacmd
+ 1037  pacmd
+ 1038  $ echo "suspend 1" | pacmd
+ 1039  echo "suspend 1" | pacmd
+ 1040  cd midi-mapper/
+ 1041  ls
+ 1042  jackd -dalsa -dhw:U192k -r44100 -p1024 -n2 -Xseq
+ 1043  . /home/ubuntu/.cache/pypoetry/virtualenvs/midi-mapper-Z4gx0427-py3.8/bin/activate
+ 1044  clear
+ 1045  ls
+ 1046  python midiout.py 
+ 1047  history
+ 1048  cp ../python-rtmidi/examples/basic/contextmanager.py .
+ 1049  ls
+ 1050  python contextmanager.py 
+ 1051  python probe_ports.py 
+ 1052  python contextmanager.py 
+ 1053  cp ../python-rtmidi/examples/basic/* .
+ 1054  ls
+ 1055  python midiin_callback.py 
+ 1056  ls
+ 1057  python panic.py 
+ 1058  python noteon2osc.py 
+ 1059  poetry add liblo
+ 1060  python add
+ 1061  poetry add
+ 1062  poetry add pyliblo
+ 1063  poetry add Cython
+ 1064  poetry add pyliblo
+ 1065  poetry install
+ 1066  poetry show --grahp
+ 1067  poetry show --graph
+ 1068  history
+ 1069  poetry add pyliblo
+ 1070  python midiin_poll.py 
+ 1071  poetry add osc-lib
+ 1072  poetry add pyliblo
+ 1073  sudo apt install liblo-dev 
+ 1074  poetry add pyliblo
+ 1075  ls
+ 1076  cd basic/
+ 1077  ls
+ 1078  python noteon2osc.py 
+ 1079  ls
+ 1080  cd ..
+ 1081  clear
+ 1082  history
+ 1083  clear
+ 1084  ls
+ 1085  python sendsysex.py 
+ 1086  mkdir sysex-msgs
+ 1087  cd sysex-msgs/
+ 1088  vim sysex1.syx
+ 1089  vim sysex1.syx 
+ 1090  cd ..
+ 1091  python sendsysex.py ./sysex-msgs/sysex1.syx 
+ 1092  python sendsysex.py ./sysex-msgs/Synths.syx 
+ 1093  vim sysex-msgs/Synths.syx 
+ 1094  xxd sysex-msgs/Synths.syx 
+ 1095  python sendsysex.py 
+ 1096  python sendsysex.py ./sysex-msgs/Synths.syx -p 2 -v
+ 1097  python sendsysex.py ./sysex-msgs/Synths.syx -p1 -v
+ 1098  python sendsysex.py ./sysex-msgs/Synths.syx -p1
+ 1099  python sendsysex.py ./sysex-msgs/Synths.syx -p1 -v -d
+ 1100  python sendsysex.py ./sysex-msgs/Synths.syx -p1 -v -d 100
+ 1101  python basic/midiout.py 
+ 1102  python sendsysex.py -p1 -v -d 100 sysex-msgs/Synths.syx 
+ 1103  python sendsysex.py -p1 -v -d 500 sysex-msgs/Synths.syx 
+ 1104  ls
+ 1105  cd midi2command/
+ 1106  ls
+ 1107  python midi2command.py example.cfg 
+ 1108  python midi2command.py example.cfg -p 2
+ 1109  vim midi2command.py 
+ 1110  python midi2command.py example.cfg -p 2
+ 1111  python midi2command.py example.cfg -p 2 -v
+ 1112  evince
+ 1113  python midi2command.py example.cfg -p 2 -v
+ 1114  python midi2command.py example.cfg -p 1 -v
+ 1115  clear
+ 1116  python midi2command.py example.cfg -p 1 -v
+ 1117  cd ..
+ 1118  ls
+ 1119  cd drumseq/
+ 1120  ls
+ 1121  python drumseq.py 
+ 1122  cd midi
+ 1123  cd ..
+ 1124  ls
+ 1125  cd midifilter/
+ 1126  ls
+ 1127  vim __init__.py 
+ 1128  vim __main__.py .
+ 1129  exit
+ 1130  cd midi-mapper/
+ 1131  ls
+ 1132  cd sysex-msgs/
+ 1133  xxd Synths.syx 
+ 1134  cd ..
+ 1135  python sendsysex.py -l
+ 1136  ls
+ 1137  cd midi2command/
+ 1138  ls
+ 1139  vim midi2command.py 
+ 1140  sudo apt install evince
+ 1141  cd midi-mapper/
+ 1142  cp -r ../python-rtmidi/examples/advanced/ .
+ 1143  ls
+ 1144  cp -r ../python-rtmidi/examples/basic/ .
+ 1145  cp -r ../python-rtmidi/examples/drumseq/ .
+ 1146  cp -r ../python-rtmidi/examples/midi2command/ .
+ 1147  ls
+ 1148  cp -r ../python-rtmidi/examples/midifilter/ .
+ 1149  cp -r ../python-rtmidi/examples/sequencer/ .
+ 1150  cp -r ../python-rtmidi/examples/sysex/ .
+ 1151  cp -r ../python-rtmidi/examples/sysexsaver/ .
+ 1152  cp -r ../python-rtmidi/examples/sendsysex.py .
+ 1153  cp -r ../python-rtmidi/examples/wavetablemodstep.py .
+ 1154  ls
+ 1155  hisotry
+ 1156  history
+ 1157  history | grep cython
+ 1158  history | install 
+ 1159  history | grep install
+ 1160  ls
+ 1161  cd midi-mapper/
+ 1162  ls
+ 1163  vim pyproject.toml 
+ 1164  history | grep install
+ 1165  exit
+ 1166  ls
+ 1167  history
+ 1168  ls
+ 1169  cd Documents/
+ 1170  ls
+ 1171  cd ..
+ 1172  ls
+ 1173  history > HISTORY.txt
